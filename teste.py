@@ -9,8 +9,5 @@ for i in tabela_de_pag:
     if(pg==i):
         fr=int(tabela_de_pag.index(i)) 
         safe=tabela_de_pag[i]
-        Memoria_fisica.insert(i,o)#falta o index
+        Memoria_fisica.insert(i,o)
         print(Memoria_fisica)
-
-
-
